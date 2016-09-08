@@ -1,0 +1,19 @@
+/* TEAM */
+  Developer: Paul Wagner
+  Twitter: @pswgnr
+  From: Vienna, Austria
+
+/* THANKS */
+  Developer of react-image-timeline: Aaron Geisler
+  Twitter: @AaronGeisler
+  From: Los Angeles, United States
+
+  Designer of tree graphic: Bobby Wijaya
+  From: Bekasi Selatan, Indonesia
+
+/* SITE */
+  Language: English
+  Doctype: HTML5
+  IDE: Atom Editor
+  Standards: HTML5, CSS3, ES6
+  Software: Babel, Gulp, Browserify, ReactJS, Mocha, Twitter Bootstrap, FontAwesome

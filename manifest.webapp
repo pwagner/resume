@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Paul Wagner's Resume",
+  "launch_path": "/index.html",
+  "description": "Curriculum Vitae and Technology Showcase",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Paul Wagner",
+    "url": "http://resume.appgarage.at"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Paul Wagner's Resume",
+      "description": "Curriculum Vitae and Technology Showcase"
+    }
+  }
+}

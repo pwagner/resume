@@ -1,0 +1,382 @@
+{
+  "basics": {
+    "name": "Paul Wagner",
+    "label": "Web Developer",
+    "birthday": "1986-08-15",
+    "citizenship": "Austrian",
+    "children": 1,
+    "quote": {
+      "text": "Grey, dear friend, is all theory, and green the golden tree of life.",
+      "author": "Mephistopheles in Goethe's \"Faust\""
+    },
+    "picture": "http://www.appgarage.at/images/paul-wagner.jpg",
+    "website": "http://www.appgarage.at",
+    "summary": "Over the past ten years I've been following web technologies and trends, collecting valuable experiences with diverse programming languages, databases, frameworks and content management systems. In the recent past, my focus was on universal web applications with JavaScript using React and Redux. Currently, I am exploring offline-first approaches with PouchDB and CouchDB. I consider myself a full stack developer, looking to support mobile via React Native.",
+    "location": {
+      "city": "Vienna",
+      "countryCode": "AT",
+      "countryName": "Austria"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "pwagner",
+      "url": "https://github.com/pwagner"
+    }, {
+      "network": "Stackoverflow",
+      "username": "pwagner",
+      "url": "https://stackoverflow.com/users/6660476/pwagner?tab=profile"
+    }, {
+      "network": "Twitter",
+      "username": "pswgnr",
+      "url": "https://twitter.com/pswgnr"
+    }]
+  },
+  "work": [{
+    "company": "ITPM - Full Service IT-Agency",
+    "position": "Webdesigner",
+    "startDate": "2006-09-23",
+    "endDate": "2008-12-19",
+    "website": "http://www.itpm.at",
+    "picture": "http://www.appgarage.at/images/logos/itpm.gif",
+    "summary": "In my first employment, I was responsible for content updates and website improvements, as well as 2nd level support for customers. Soon I started developing websites and data-entry tools, and entered the realm of Google Analytics and Adwords, achieving the Google Advertising Professional qualification.",
+    "highlights": [
+      ".NET",
+      "C#",
+      "Flash",
+      "MSSQL",
+      "Google AdWords",
+      "Google Analytics",
+      "XML"
+    ]
+  }, {
+    "company": "Self-Employed",
+    "position": "Full Stack Developer",
+    "startDate": "2009-05-01",
+    "endDate": null,
+    "website": "http://www.appgarage.at",
+    "summary": "Since the age of 23, I've also been self-employed. The services that I offer to clients encompass design and development of websites, online-shops and advertising media, as well as newsletter management and search engine optimization. I'm continuously challenging myself with new web technologies and trying to stay on the bleeding edge of development.",
+    "highlights": [
+      "CakePHP",
+      "Wordpress",
+      "Joomla",
+      "jQuery",
+      "AngularJS",
+      "MySQL",
+      "CouchDB",
+      "Grunt",
+      "Gulp",
+      "Webpack",
+      "Browserify",
+      "Flash",
+      "Google AdWords",
+      "Google Analytics",
+      "Google AdSense",
+      "Google Charts",
+      "Twitter API",
+      "Twitter Bootstrap",
+      "JSON",
+      "ReactJS",
+      "Mailchimp",
+      "HAPI",
+      "Express",
+      "Shopify",
+      "Virtuemart",
+      "Heroku",
+      "socket.io",
+      "SEO"
+    ]
+  }, {
+    "company": "DaoTec",
+    "position": "Integration Specialist",
+    "startDate": "2009-08-01",
+    "endDate": "2011-08-31",
+    "website": "http://www.daotec.com",
+    "picture": "http://www.appgarage.at/images/logos/daotec.gif",
+    "summary": "I was consulting and assisting merchants with the integration of the payment method DaoPay into their platforms, mostly browser games and facebook apps. Due to my interdisciplinary knowledge and technical understanding, I was able to function as an interface between the marketing, sales and development teams, and developed an innovative pricing API.",
+    "highlights": [
+      "PHP",
+      "jQuery",
+      "PostgreSQL",
+      "JSON",
+      "REST",
+      "Memcache",
+      "Nginx",
+      "Webhooks",
+      "Facebook API"
+    ]
+  }, {
+    "company": "extra+",
+    "position": "Web Developer",
+    "startDate": "2012-03-01",
+    "endDate": "2014-01-30",
+    "website": "http://www.extraplus.at",
+    "picture": "http://www.appgarage.at/images/logos/extraplus.gif",
+    "summary": "I developed workflows and processes enabling the normalized import of API data from various affiliate networks and gained first-hand start-up experiences.",
+    "highlights": [
+      "CakePHP",
+      "CouchDB",
+      "NodeJS",
+      "AWS S3",
+      "AWS SQS",
+      "AWS SNS",
+      "AWS Route53",
+      "Grunt",
+      "Facebook API",
+      "Twitter Bootstrap",
+      "Affiliate APIs",
+      "Redis",
+      "Pagodabox"
+    ]
+  }, {
+    "company": "Unser Wein",
+    "position": "Web Developer",
+    "startDate": "2015-11-18",
+    "endDate": "2016-08-31",
+    "website": "http://www.unserwein.at",
+    "picture": "http://www.appgarage.at/images/logos/unserwein.gif",
+    "summary": "I contributed to a universal JavaScript app and developed scripts for CouchDB administration. Here I was introduced to React and Redux, and inspired to follow offline-first approaches.",
+    "highlights": [
+      "CouchDB",
+      "NodeJS",
+      "ReactJS",
+      "ReduxJS",
+      "Grunt",
+      "Webpack",
+      "Twitter Bootstrap",
+      "Asana API",
+      "Babel",
+      "ES6",
+      "Mocha"
+    ]
+  }],
+  "education": [{
+    "institution": "AHS BG6",
+    "area": "Humanistic Branch",
+    "studyType": "Matura",
+    "startDate": "1996-09-01",
+    "endDate": "2004-06-30",
+    "educationType": "theory",
+    "remark": "Graduated from Amerlinggymnasium (Matura) with excellent success."
+  }, {
+    "institution": "University of Vienna",
+    "area": "Philosophy, German Philology",
+    "studyType": "University Diploma",
+    "startDate": "2004-10-01",
+    "endDate": "2005-09-30",
+    "educationType": "theory",
+    "remark": "Studied topics of interest while position in civil service was pending."
+  }, {
+    "institution": "Civil Service",
+    "area": "Wiener Hilfswerk",
+    "studyType": "Conscription",
+    "startDate": "2005-06-01",
+    "endDate": "2006-05-31",
+    "educationType": "praxis",
+    "remark": "Worked in the marketing and event-management departments."
+  }, {
+    "institution": "SAE Institute",
+    "area": "Webdesign & Development",
+    "studyType": "Private Diploma",
+    "startDate": "2007-09-01",
+    "endDate": "2009-02-28",
+    "educationType": "theory",
+    "remark": "Wrote thesis on web tracking and achieved diploma."
+  }],
+  "publications": [{
+    "name": "Website and Online-Shop",
+    "publisher": "Weingut Schlaffer",
+    "releaseDate": "2008-02-01",
+    "website": "#",
+    "isOffline": true,
+    "summary": "An online-shop for a vinery built with Adobe Flash on the frontend, connected to a backend via ActionScript, which was implemented with PHP and MySQL. This was my SAE diploma project.",
+    "keywords": [
+      "PHP",
+      "MySQL",
+      "Flash",
+      "Google Analytics",
+      "Google Adwords",
+      "ActionScript"
+    ],
+    "picture": "http://www.appgarage.at/images/publications/schlaffer.jpg"
+  }, {
+    "name": "Online Ads",
+    "publisher": "nöm fasten",
+    "releaseDate": "2009-06-01",
+    "website": "#",
+    "isOffline": true,
+    "summary": "I've been producing Flash ads for nöm's dairy products and other large corporations throughout the years. The ads were published on Austria's major websites, such as orf.at, diepresse.com and derstandard.at",
+    "keywords": [
+      "Flash",
+      "Photoshop",
+      "Illustrator"
+    ],
+    "picture": "http://www.appgarage.at/images/publications/noem.jpg"
+  }, {
+    "name": "Website",
+    "publisher": "s&s architekten",
+    "releaseDate": "2009-12-01",
+    "website": "http://www.ss-plus.at",
+    "isOffline": false,
+    "summary": "I built the online presence of these award-winning Viennese architects. It was relaunched with AngularJs in 2015. They are using a custom content management system adjusted to their needs. I've also assisted them with batch processing images with Photoshop.",
+    "keywords": [
+      "AngularJS",
+      "PHP",
+      "MySQL",
+      "Photoshop",
+      "Twitter Bootstrap"
+    ],
+    "picture": "http://www.appgarage.at/images/publications/ssplus.jpg"
+  }, {
+    "name": "Website and Online-Shop",
+    "publisher": "Weingut Pfneisl",
+    "releaseDate": "2015-03-01",
+    "website": "http://www.weingutpfneisl.at",
+    "isOffline": false,
+    "summary": "This online-shop for a well established vinery was built with the PHP content management system Joomla and its Virtuemart extension. I'm also sending the newsletter.",
+    "keywords": [
+      "PHP",
+      "MySQL",
+      "Joomla",
+      "Virtuemart",
+      "Google Analytics",
+      "Mailchimp"
+    ],
+    "picture": "http://www.appgarage.at/images/publications/pfneisl.jpg"
+  }, {
+    "name": "This Résumé",
+    "publisher": "Paul Wagner",
+    "releaseDate": "2016-09-06",
+    "website": "http://resume.appgarage.at",
+    "isOffline": false,
+    "summary": "This very page was rendered by a React single-page-application. The source code can be found on Github. I used gulp, browserify, babelify and mocha tests in the development process.",
+    "keywords": [
+      "ReactJS",
+      "ES6",
+      "Babel",
+      "Browserify",
+      "Mocha",
+      "Gulp",
+      "Chai"
+    ],
+    "picture": "http://www.appgarage.at/images/publications/this.jpg"
+  }],
+  "skills": [{
+    "name": "JavaScript",
+    "level": "Professional",
+    "keywords": [
+      "jQuery",
+      "NodeJS",
+      "ReactJS",
+      "ReduxJS",
+      "AngularJS",
+      "Babel",
+      "ES6",
+      "Express",
+      "HAPI"
+    ],
+    "rating": 4.5
+  }, {
+    "name": "HTML & CSS",
+    "level": "Professional",
+    "keywords": [
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "LESS",
+      "CSSModules",
+      "Radium",
+      "Twitter Bootstrap"
+    ],
+    "rating": 4.5
+  }, {
+    "name": "Google Services",
+    "level": "Professional",
+    "keywords": [
+      "AdWords",
+      "AdSense",
+      "Analytics",
+      "Charts",
+      "Drive",
+      "Maps"
+    ],
+    "rating": 4.5
+  }, {
+    "name": "Operating Systems, Servers & PaaS",
+    "level": "Advanced",
+    "keywords": [
+      "Mac OS X",
+      "Windows",
+      "Apache",
+      "Nginx",
+      "Heroku",
+      "Pagodabox",
+      "Linux"
+    ],
+    "rating": 4
+  }, {
+    "name": "Databases & Stores",
+    "level": "Experienced",
+    "keywords": [
+      "MySQL",
+      "PostgreSQL",
+      "CouchDB",
+      "Memcache",
+      "Redis",
+      "MSSQL"
+    ],
+    "rating": 3.5
+  }, {
+    "name": "PHP",
+    "level": "Experienced",
+    "keywords": [
+      "CakePHP",
+      "Wordpress",
+      "Joomla",
+      "Drupal",
+      "Zend",
+      "Virtuemart"
+    ],
+    "rating": 3.5
+  }, {
+    "name": "Amazon Web Services & IaaS",
+    "level": "Experienced",
+    "keywords": [
+      "S3",
+      "SQS",
+      "SNS",
+      "Route53",
+      "Digital Ocean"
+    ],
+    "rating": 3.5
+  }, {
+    "name": "Graphic Design",
+    "level": "Intermediate",
+    "keywords": [
+      "Photoshop",
+      "Illustrator",
+      "Flash",
+      "draw.io",
+      "Omnigraffle"
+    ],
+    "rating": 2.5
+  }],
+  "languages": [{
+    "name": "German",
+    "level": "native"
+  }, {
+    "name": "English",
+    "level": "fluent"
+  }, {
+    "name": "French",
+    "level": "elementary"
+  }],
+  "interests": [{
+    "name": "Family"
+  }, {
+  	"name": "Podcasts"
+  }, {
+  	"name": "Jiu Jitsu"
+  }, {
+    "name": "Science Fiction"
+  }]
+}
