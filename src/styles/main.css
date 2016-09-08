@@ -614,3 +614,15 @@ blockquote.quote .fa-quote-right {
 .label-default {
   background-color: grey;
 }
+
+.languages li {
+  border: 1px dashed silver;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  padding: 22px 0;
+  line-height: 1.15em;
+  font-size: 12px;
+  margin-right: 0.15em;
+}
