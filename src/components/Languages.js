@@ -2,8 +2,12 @@ import React from 'react';
 
 const Languages = ({ languages }) => (
   <section className="languages">
-    <h2 className="text-uppercase"><i className="fa fa-lg fa-comment" /> Languages</h2>
-    <p>{languages.length} languages</p>
+    <h2 className="text-uppercase"><i className="fa fa-lg fa-language" /> Languages</h2>
+    <ul className="list-inline">
+    {languages.map(({ name, level }) => (
+      <li>{name} {level}</li>
+    ))}
+    </ul>
   </section>
 );
 

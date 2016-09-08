@@ -60,10 +60,12 @@ class App extends Component {
                 work={work}
                 publications={publications}
               />
+            </main>
+            <aside className="col-xs-12 col-md-4">
               <Languages
                 languages={languages}
               />
-            </main>
+            </aside>
           </div>
         </div>
       );
