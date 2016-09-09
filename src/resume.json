@@ -373,9 +373,9 @@
   "interests": [{
     "name": "Family"
   }, {
-  	"name": "Podcasts"
-  }, {
   	"name": "Jiu Jitsu"
+  }, {
+  	"name": "Podcasts"
   }, {
     "name": "Science Fiction"
   }]
