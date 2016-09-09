@@ -16,7 +16,10 @@
     "test": "mocha --reporter spec --compilers js:babel-core/register --recursive --require ./test/setup-jsdom.js ./test/**/*.test.js",
     "test:watch": "npm test -- --watch",
     "start": "gulp watch",
-    "build": "gulp build"
+    "dev": "gulp watch",
+    "dev:private": "gulp watch:private",
+    "build": "gulp build",
+    "build:private": "gulp build:private"
   },
   "author": "Paul Wagner",
   "private": true,
@@ -59,6 +62,7 @@
     "gulp-install": "^0.6.0",
     "gulp-notify": "^2.2.0",
     "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.4.0",

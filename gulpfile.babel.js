@@ -10,6 +10,7 @@ import babelify from 'babelify';
 import uglify from 'gulp-uglify';
 import htmlmin from 'gulp-htmlmin';
 import replace from 'gulp-replace';
+import rename from 'gulp-rename';
 import urlAdjuster from 'gulp-css-url-adjuster';
 import rimraf from 'rimraf';
 import notify from 'gulp-notify';
@@ -35,6 +36,7 @@ const paths = {
   distJs: 'dist/js',
   distImg: 'dist/images',
   json: 'src/resume.json',
+  privateJson: 'src/resume.private.json',
   indexFiles: ['favicon.ico', 'humans.txt', 'robots.txt'],
 };
 
@@ -94,12 +96,18 @@ gulp.task('buildBrowserify', () => {
   .pipe(source(paths.bundle))
   .pipe(buffer())
   .pipe(uglify())
-  .pipe(replace(/\/dist\//g, '/'))
+  .pipe(replace(/\/dist\//g, ''))
   .pipe(gulp.dest(paths.distJs));
 });
 
 gulp.task('copy-resume', () => {
   gulp.src(paths.json)
+  .pipe(gulp.dest('./dist/'));
+});
+
+gulp.task('copy-private-resume', () => {
+  gulp.src(paths.privateJson)
+  .pipe(rename('resume.json'))
   .pipe(gulp.dest('./dist/'));
 });
 
@@ -177,12 +185,39 @@ gulp.task('watch', cb => {
   ], cb);
 });
 
+gulp.task('watch:private', cb => {
+  runSequence('clean', [
+    'browserSync',
+    'watchTask',
+    'watchify',
+    'minify',
+    'copy-private-resume',
+    'copy-index-files',
+    'styles',
+    'lint',
+    'images',
+  ], cb);
+});
+
 gulp.task('build', cb => {
   process.env.NODE_ENV = 'production';
   runSequence('clean', [
     'buildBrowserify',
     'minify',
     'copy-resume',
+    'copy-index-files',
+    'buildStyles',
+    'minifyAndReplaceHtml',
+    'images',
+  ], cb);
+});
+
+gulp.task('build:private', cb => {
+  process.env.NODE_ENV = 'production';
+  runSequence('clean', [
+    'buildBrowserify',
+    'minify',
+    'copy-private-resume',
     'copy-index-files',
     'buildStyles',
     'minifyAndReplaceHtml',
