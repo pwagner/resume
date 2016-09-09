@@ -341,6 +341,9 @@ blockquote.quote .fa-quote-right {
   color: #777;
   text-transform: uppercase;
 }
+.experience .divider {
+  margin-top: -54px;
+}
 
 .loading {
   font-size: 24px;
