@@ -15,7 +15,7 @@ describe('App', () => {
 
   it('should show the main container, when there is a resume in the state', () => {
     const app = TestUtils.renderIntoDocument(<App />);
-    expect(app.props.source).to.equal('/resume.json');
+    expect(app.props.source).to.equal('resume.json');
     app.setState({ resume: {} });
     expect(app.state.resume).to.deep.equal({});
     const container = TestUtils.findRenderedDOMComponentWithClass(app, 'paper');

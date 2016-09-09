@@ -99,7 +99,7 @@ App.propTypes = {
   resume: shape(),
 };
 App.defaultProps = {
-  source: '/resume.json',
+  source: 'resume.json',
 };
 
 export default App;
