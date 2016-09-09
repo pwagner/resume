@@ -11,9 +11,12 @@ const Languages = ({ languages }) => (
   </section>
 );
 
-const { arrayOf, string } = React.PropTypes;
+const { arrayOf, shape, string } = React.PropTypes;
 Languages.propTypes = {
-  languages: arrayOf(string).isRequired,
+  languages: arrayOf(shape({
+    name: string,
+    level: string,
+  })).isRequired,
 };
 Languages.defaultProps = {
   languages: [],
