@@ -626,3 +626,14 @@ blockquote.quote .fa-quote-right {
   font-size: 12px;
   margin-right: 0.15em;
 }
+
+.interests-item {
+  margin-right: 0.5em;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+.interests-item img {
+  height: 54px;
+  opacity: 0.7;
+}
