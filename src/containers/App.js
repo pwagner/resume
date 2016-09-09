@@ -6,6 +6,7 @@ import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 import Education from '../components/Education';
 import Languages from '../components/Languages';
+import Interests from '../components/Interests';
 
 export const fetchResume = source => fetch(source, {
   credentials: 'include', // pass cookies, for authentication
@@ -38,7 +39,14 @@ class App extends Component {
 
   render() {
     if (this.state.resume) {
-      const { basics, work, skills, education, publications, languages } = this.state.resume;
+      const { basics,
+        work,
+        skills,
+        education,
+        publications,
+        languages,
+        interests,
+      } = this.state.resume;
       const { quote } = basics || {};
 
       return (
@@ -61,6 +69,11 @@ class App extends Component {
                 publications={publications}
               />
             </main>
+            <aside className="col-xs-12 col-md-8">
+              <Interests
+                interests={interests}
+              />
+            </aside>
             <aside className="col-xs-12 col-md-4">
               <Languages
                 languages={languages}
