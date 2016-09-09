@@ -12,9 +12,11 @@ const Interests = ({ interests }) => (
   </section>
 );
 
-const { arrayOf, string } = React.PropTypes;
+const { arrayOf, shape, string } = React.PropTypes;
 Interests.propTypes = {
-  interests: arrayOf(string).isRequired,
+  interests: arrayOf(shape({
+    name: string,
+  })).isRequired,
 };
 Interests.defaultProps = {
   interests: [],
