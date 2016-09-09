@@ -69,12 +69,12 @@ class App extends Component {
                 publications={publications}
               />
             </main>
-            <aside className="col-xs-12 col-md-8">
+            <aside className="col-xs-12 col-md-7">
               <Interests
                 interests={interests}
               />
             </aside>
-            <aside className="col-xs-12 col-md-4">
+            <aside className="col-xs-12 col-md-5">
               <Languages
                 languages={languages}
               />

@@ -16,6 +16,6 @@ describe('InterestsItem', () => {
     const shallowRenderer = TestUtils.createRenderer();
     shallowRenderer.render(<InterestsItem name="Family" />);
     const interestsItem = shallowRenderer.getRenderOutput();
-    expect(interestsItem.props.children[1].type).to.equal('img');
+    expect(interestsItem.props.children[0].type).to.equal('img');
   });
 });

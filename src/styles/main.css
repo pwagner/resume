@@ -618,22 +618,25 @@ blockquote.quote .fa-quote-right {
 .languages li {
   border: 1px dashed silver;
   border-radius: 50%;
-  width: 72px;
-  height: 72px;
-  text-align: center;
-  padding: 22px 0;
+  width: 84px;
+  height: 84px;
+  padding: 30px 0;
   line-height: 1.15em;
+  margin-right: 10px;
   font-size: 12px;
-  margin-right: 0.15em;
+  text-align: center;
 }
 
 .interests-item {
-  margin-right: 0.5em;
+  margin-right: 16px;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
 }
 .interests-item img {
-  height: 54px;
-  opacity: 0.7;
+  height: 60px;
+  opacity: 0.65;
+}
+.interests-item  div {
+  padding-top: 6px;
 }
