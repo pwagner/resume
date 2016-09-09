@@ -246,7 +246,7 @@
     "name": "This Résumé",
     "publisher": "Paul Wagner",
     "releaseDate": "2016-09-06",
-    "website": "http://resume.appgarage.at",
+    "website": "https://github.com/pwagner/resume",
     "isOffline": false,
     "summary": "This very page was rendered by a React single-page-application. The source code can be found on Github. I used gulp, browserify, babelify and mocha tests in the development process.",
     "keywords": [
