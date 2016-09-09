@@ -21,7 +21,7 @@ const InterestsItem = ({ name }) => (
           return (
             <img src="/dist/images/scifi.png" alt={name} />
           );
-        default: return name;
+        default: return <span className="hidden">No image for {name}</span>;
       }
     }
   )()}
