@@ -39,7 +39,9 @@ class App extends Component {
 
   render() {
     if (this.state.resume) {
-      const { basics,
+      const {
+        isPrivate,
+        basics,
         work,
         skills,
         education,
@@ -55,6 +57,7 @@ class App extends Component {
             <main className="col-xs-12">
               <Basics
                 data={basics}
+                isPrivate={isPrivate}
               />
               <Skills
                 data={skills}
