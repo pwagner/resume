@@ -1,6 +1,8 @@
 # Paul Wagner's Resume
 This project presents my resume - or any given resume in JSON Resume Schema format (https://jsonresume.org/) - with ReactJS, using Gulp, Babel, and Browserify to compile the ES6 code to a single ES5 bundle.
 
+[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/pwagner/my-resume-stack)
+
 # Getting started
 1. Clone the repo and run `npm install`
 2. Adapt `src/resume.json` according to your needs.
