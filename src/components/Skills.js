@@ -4,7 +4,7 @@ import IconRating from 'react-icon-rating';
 const Skills = ({ data }) => (
   <section className="skills">
     <h2 className="text-uppercase">
-      <i className="fa fa-lg fa-wrench" /> Skills <i className="fa fa-lg fa-cogs" />
+      <i className="fa fa-lg fa-wrench hidden-xs" /> Skills <i className="fa fa-lg fa-cogs hidden-xs" />
     </h2>
     <div className="row">
     {

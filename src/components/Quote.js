@@ -2,9 +2,9 @@ import React from 'react';
 
 const Quote = (({ author, text }) => (
   <blockquote className="quote">
-    <i className="fa fa-lg fa-quote-left pull-left" />
+    <i className="fa fa-lg fa-quote-left pull-left hidden-xs" />
     <p>{text}</p>
-    <i className="fa fa-lg fa-quote-right pull-right" />
+    <i className="fa fa-lg fa-quote-right pull-right hidden-xs" />
     <footer>
       <cite>{author}</cite>
     </footer>

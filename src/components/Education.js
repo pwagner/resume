@@ -13,8 +13,8 @@ const Education = ({ data, work, quote }) => (
         <span className="praxis">Praxis <i className="fa fa-lg fa-flask" /></span>
       </h2>
     </div>
-    <Quote text={quote.text} author={quote.author} />
     <EducationPie education={data} work={work} />
+    <Quote text={quote.text} author={quote.author} />
     <div className="education-details row">
       {
         data.map(({
@@ -26,7 +26,7 @@ const Education = ({ data, work, quote }) => (
           endDate,
           remark,
         }, key) => (
-          <div className="col-xs-3" key={key}>
+          <div className="col-xs-12 col-sm-6 col-md-3" key={key}>
             <h3>{institution}</h3>
             <h5>{area}</h5>
             <p className="timeframe">
