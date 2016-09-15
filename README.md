@@ -5,10 +5,11 @@ This project presents my resume - or any given resume in JSON Resume Schema form
 
 # Getting started
 1. Clone the repo and run `npm install`
-2. Adapt `src/resume.json` according to your needs.
-3. Development mode: `npm start` or `npm run dev`
-4. Tests (mocha): `npm test` or `npm run test:watch`
-5. Build dist: `npm run build`
+2. Gulp should be installed globally (`npm install -g gulp`)
+3. Adapt `src/resume.json` according to your needs.
+4. Development mode: `npm start` or `npm run dev`
+5. Tests (mocha): `npm test` or `npm run test:watch`
+6. Build dist: `npm run build`
 
 ## Private vs Public Resume
 By default, the phone number and exact address will not be displayed in the Contact component. A hint is shown instead.
